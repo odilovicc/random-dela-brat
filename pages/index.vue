@@ -85,7 +85,7 @@ function clearWillings() {
         v-for="card in userWillings"
         :key="card.id"
       >
-        <h1 class="willings-card-title">{{ card.willing }}</h1>
+         <h1 class="willings-card-title">{{ card.willing }}</h1>
       </div>
       <AppButton
         label="Теперь крутиииим..."
